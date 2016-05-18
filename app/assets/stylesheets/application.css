@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+div.jumbotron {
+	color: #C44D58;
+	background: #F0D399;
+	font-family: 'Gafata', sans-serif;
+	font-size: 40px;
+}
+
+a {
+	color: #B8C99D m;
+}
+
+.btn {
+ 	font-size: 20px;
+}
