@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  color: MyText
+  author: MyText
+  inventorycount: 1
+
+two:
+  title: MyText
+  color: MyText
+  author: MyText
+  inventorycount: 1
