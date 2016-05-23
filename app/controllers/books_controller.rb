@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
-  before_action :set_book, only: [:show, :edit, :update, :destroy]
+  before_action :set_book, only: [:show, :rent, :edit, :update, :destroy]
 
 
   def home
@@ -16,9 +16,13 @@ class BooksController < ApplicationController
   def show
   end
 
-  # GET /books/login
-  def login
+  def rent
+    @book = Book.find(params[:id])
   end
+
+  def rate
+  end
+
 
   # GET /books/new
   def new

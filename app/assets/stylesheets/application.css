@@ -17,10 +17,10 @@
 
 
 div.jumbotron {
-	color: #C44D58;
-	background: #F0D399;
-	font-family: 'Gafata', sans-serif;
-	font-size: 40px;
+	color: #8E436B;
+	background: #ffff;
+	font-family: 
+	font-size: 30px;
 }
 
 a {
@@ -29,5 +29,23 @@ a {
 img{ width:100%; }
 
 .btn {
- 	font-size: 20px;
+ 	font-size: 40px;
+}
+
+
+.navbar-default {
+    background-color: #3A30C3;
+    border-color: #bf3e11;
+}
+
+.section-title {
+	font-size: 1.875rem;
+    font-family: "Romana","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: 1.75em;
+    padding-bottom: 0;
 }
