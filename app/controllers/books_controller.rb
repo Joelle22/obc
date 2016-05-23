@@ -16,6 +16,10 @@ class BooksController < ApplicationController
   def show
   end
 
+  # GET /books/login
+  def login
+  end
+
   # GET /books/new
   def new
     @book = Book.new
